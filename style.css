@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+header{
+  background-image: url(../kpophome2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+  text-decoration: line-through;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+
+}
+
+ul li a:hover{
+  color: #000;
+
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-left: 100px;
+}
+
+.title h1{
+  color: #000;
+  font-size: 50px;
+  text-align: center;
+}
+
+.title h3{
+  color: #000;
+  font-size: 25px;
+  text-align: center;
+}
+
+.title p{
+  text-align: center;
+}
+
+.company{
+  margin-left: 50px;
+}
+
+.company img{
+  margin-top: 80px;
+}
